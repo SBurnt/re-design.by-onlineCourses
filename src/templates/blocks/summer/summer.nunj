@@ -1,0 +1,17 @@
+<section class="summer">
+	<div class="container">
+		<div class="section__inner">
+			<div class="summer__wrap br-60-30">
+				<h2 class="section__title">Проведи
+					<span class='color'>
+						<span class="pink">л</span>
+						<span class="yellow">е</span>
+						<span class="blue_light">т</span>
+						<span class="yellow">о</span>
+					</span>
+				 с нами</h2>
+				<button class="btn blue js-btn-scroll-to-form" data-scroll-block="form-scroll">оставить заявку</button>
+			</div>
+		</div>
+	</div>
+</section>

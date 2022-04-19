@@ -1,0 +1,106 @@
+.teachers {
+  overflow: hidden;
+
+  &__list {
+    display: grid;
+
+    column-gap: 30px;
+
+    @include media("max", "md") {
+      column-gap: 30px;
+
+      gap: 30px;
+      grid-template-columns: 1fr;
+      row-gap: 30px;
+    }
+
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+  }
+
+  &__item {
+    display: flex;
+
+    column-gap: 10px;
+
+    @include media("max", "lg") {
+      flex-direction: column;
+      align-items: center;
+
+      column-gap: 0;
+
+      gap: 0;
+    }
+
+    gap: 10px;
+  }
+
+  &__img-wrap {
+    position: relative;
+
+    width: 40%;
+
+    @include media("max", "lg") {
+      width: 100%;
+      height: 350px;
+    }
+
+    &::after {
+      content: none;
+      position: absolute;
+      top: 10%;
+      right: 0;
+      bottom: -1px;
+      left: 0;
+      z-index: 1;
+
+      background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0) 18.88%);
+
+      @include media("max", "lg") {
+        content: "";
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    object-position: bottom;
+  }
+
+  &__content {
+    z-index: 1;
+
+    width: 60%;
+    padding-top: 90px;
+
+    @include media("max", "lg") {
+      width: 100%;
+      margin-top: -29px;
+      padding: 0;
+    }
+  }
+
+  &__name {
+    margin-bottom: 20px;
+
+    font-size: var(--fs-32-24);
+    line-height: 120%;
+  }
+
+  &__descr {
+    display: block;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+
+    font-size: var(--fs-20-16);
+    line-height: 130%;
+    font-family: $raleway;
+    color: $color-gray;
+  }
+}

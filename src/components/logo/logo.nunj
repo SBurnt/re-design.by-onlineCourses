@@ -1,0 +1,5 @@
+<div class="logo">
+	<a href="/" class="logo__link">
+		<img class="logo__img lazyload" src="#" data-src="assets/images/main/logo.svg" loading="lazy" width="121" height="52" alt="логотип Re-design">
+	</a>
+</div>

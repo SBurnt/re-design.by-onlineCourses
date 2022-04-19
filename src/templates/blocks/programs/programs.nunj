@@ -1,0 +1,67 @@
+<section class="programs" id="program-scroll">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title">Программы обучения</h2>
+			<ul class="programs__list">
+				<li class="programs__item">
+					<div class="programs__img-wrap mobile">
+						<img class="programs__img ico lazyload" src="#" data-src="assets/images/ico/figures/ico-sun-2.svg" width="130" height="130" loading="lazy" alt="иконка">
+						<img class="programs__img br-60-30 lazyload" src="#" data-src="assets/images/main/programs/programs-01.jpg" width="520" height="720" loading="lazy" alt="фотография учеников">
+					</div>
+					<h3 class="programs__title">Создание комиксов и анимаций</h3>
+					<span class="programs__subtitle">Программа для учеников <span>9-12</span> лет</span>
+					<div class="programs__wrap">
+						<div class="programs__img-wrap">
+							<img class="programs__img ico lazyload" src="#" data-src="assets/images/ico/figures/ico-sun-2.svg" width="130" height="130" loading="lazy" alt="иконка">
+							<img class="programs__img br-60-30 lazyload" src="#" data-src="assets/images/main/programs/programs-01.jpg" width="520" height="720" loading="lazy" alt="фотография учеников">
+						</div>
+						<div class="programs__content content">
+							<p class="content__text">Многие дети уже в раннем детстве увлекаются дизайном, рисунком, творчеством и хотят создавать свои работы, показывать их своим родителям и сверстникам, делиться в социальных сетях.</p>
+							<p class="content__text">Мы подготовили программу для учеников, в которой собрали все самые интересные для возраста 9-12 лет направления: создание комиксов, создание собственного стикер-пака, создание мультфильмов, создание постеров и обработка фотографий. Эти предметы позволят не только познакомится с дизайном, но и создать свои проекты и делиться ими.</p>
+							<p class="content__title">В программу входит:</p>
+							<ul class="content__list">
+								<li class="content__item">Создание комиксов Манга</li>
+								<li class="content__item">Цифровой рисунок</li>
+								<li class="content__item">Создание стикерпака для месенджера</li>
+								<li class="content__item">Полигональная графика</li>
+								<li class="content__item">Рисунок с использованием рисовального угля</li>
+								<li class="content__item">Фотоманипуляции</li>
+								<li class="content__item">Создание гравюр</li>
+								<li class="content__item">Анимация</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="programs__item">
+					<div class="programs__img-wrap mobile">
+						<img class="programs__img ico lazyload" src="#" data-src="assets/images/ico/figures/ico-flower-4.svg" width="130" height="130" loading="lazy" alt="иконка">
+						<img class="programs__img br-60-30 lazyload" src="#" data-src="assets/images/main/programs/programs-02.jpg" width="520" height="720" loading="lazy" alt="фотография учеников">
+					</div>
+					<h3 class="programs__title">Современные дизайн-профессии</h3>
+					<span class="programs__subtitle">Программа для учеников <span>13-15</span> лет</span>
+					<div class="programs__wrap">
+						<div class="programs__img-wrap">
+							<img class="programs__img ico lazyload" src="#" data-src="assets/images/ico/figures/ico-flower-4.svg" width="130" height="130" loading="lazy" alt="иконка">
+							<img class="programs__img br-60-30 lazyload" src="#" data-src="assets/images/main/programs/programs-02.jpg" width="520" height="720" loading="lazy" alt="фотография учеников">
+						</div>
+						<div class="programs__content content">
+							<p class="content__text">Сегодня дизайн наряду с программированием, одна из самых интересных и востребованных профессий. Многие вещи, которые сегодня нас окружают, и есть результат работы дизайнеров.</p>
+							<p class="content__text">Мы разработали программу, которая поможет ученикам попробовать себя в таких направлениях дизайна, как промышленный дизайнер, графический дизайнер, дизайнер иллюстратор и дизайнер в игровой индустрии.</p>
+							<p class="content__text">Наряду с изучением компьютерных дисциплин ученики также поработают с разными техниками и материалами в рисунке, создании композиций, что разовьет их вкус и насмотренность!</p>
+							<p class="content__title">В программу входит:</p>
+							<ul class="content__list">
+								<li class="content__item">Профессия дизайнер комиксов: создание комикса</li>
+								<li class="content__item">Профессия промышленный дизайнер: создание объекта будущего</li>
+								<li class="content__item">Профессия графический дизанер: создание бренбука</li>
+								<li class="content__item">Профессия дизайнер в игровой индустрии</li>
+								<li class="content__item">Скетчинг</li>
+								<li class="content__item">Гравюра</li>
+								<li class="content__item">Рисунок</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

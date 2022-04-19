@@ -1,0 +1,17 @@
+{
+	"navItems": [
+		{
+			"name": "Каталог",
+			"path": "catalog.html",
+			"classActive": "active"
+		},
+		{
+			"name": "О компании",
+			"path": "about-company.html"
+		},
+		{
+			"name": "Контакты",
+			"path": "contacts.html"
+		}
+	]
+}

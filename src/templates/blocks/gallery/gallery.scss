@@ -1,0 +1,149 @@
+.gallery {
+  overflow: hidden;
+  &__slider-thumbs {
+    overflow: visible;
+  }
+
+  &__list-thumbs {
+    display: flex;
+    height: 122px;
+    margin-bottom: 80px;
+
+    @include media("max", "lg") {
+      margin-bottom: 30px;
+    }
+    @include media("max", "md") {
+      height: 95px;
+    }
+  }
+
+  &__item-thumbs {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+    padding: 0 15px 19px;
+
+    cursor: pointer;
+    opacity: 0.6;
+
+    @include media("max", "md") {
+      max-width: 222px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+
+      width: 100%;
+      height: 5px;
+
+      background-color: $color-blue-light;
+      opacity: 1;
+    }
+
+    &.swiper-slide-thumb-active {
+      opacity: 1;
+
+      .gallery__text {
+        color: $color-blue-dark;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+
+        width: 100%;
+        height: 5px;
+
+        background-color: $color-blue-dark;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  &__text {
+    z-index: 2;
+
+    font-size: var(--fs-24-18);
+    line-height: 140%;
+    text-align: center;
+    color: $color-gray;
+  }
+
+  &__img-wrap-thumbs {
+    position: absolute;
+    top: 50%;
+
+    width: 60px;
+    height: 60px;
+
+    transform: translateY(-70%);
+
+    @include media("max", "md") {
+      width: 45px;
+      height: 45px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+
+      object-fit: contain;
+    }
+  }
+
+  &__slider-photo {
+    padding: 0 100px;
+
+    @include media("max", "xl") {
+      padding: 0;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 20px;
+  }
+
+  &__item {
+    width: calc(50% - 10px);
+    height: 510px;
+    overflow: hidden;
+
+		&:hover {
+			.gallery__img {
+				transform: scale(1.2);
+			}
+		}
+
+    @include media("max", "xl") {
+      height: 400px;
+    }
+    @include media("max", "lg") {
+      height: 270px;
+    }
+    @include media("max", "md") {
+      width: 100%;
+      height: 200px;
+    }
+  }
+
+  &__img {
+    transition: transform 0.2s ease-in;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+}

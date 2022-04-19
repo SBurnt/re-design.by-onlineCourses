@@ -1,0 +1,23 @@
+<section class="full-img">
+	<div class="container">
+		<div class="section__inner">
+			<div class="full-img__wrapper br-60-30">
+				<div class="full-img__video br-60-30">
+					<video class="video" loop autoplay muted playsinline webkit-playinginline>
+						<source src="assets/images/main/full-video.mp4" type="video/mp4"/>
+					</video>
+				</div>
+				<img class="full-img__ico sun lazyload" src="#" data-src="assets/images/ico/figures/ico-sun.svg" width="150" height="150" loading="lazy" alt="иконка">
+				<img class="full-img__ico flower lazyload" src="#" data-src="assets/images/ico/figures/ico-flower-3.svg" width="80" height="80" loading="lazy" alt="иконка">
+				<h2 class="full-img__title">Летний лагерь</h2>
+				<h2 class="full-img__subtitle">Design &
+					<span class='color'>
+						<span class="pink">A</span>
+						<span class="yellow">R</span>
+						<span>T</span>
+					</span><br> camp</h2>
+				<button class="btn blue js-btn-scroll-to-form" data-scroll-block="form-scroll">УЗНАТЬ БОЛЬШЕ</button>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,68 @@
+<section class="teachers" id="teachers-scroll">
+	<div class="container">
+		<div class="section__inner">
+			<h3 class="section__subtitle">Команда лагеря</h3>
+			<h2 class="section__title">Преподаватели, вожатые</h2>
+			<ul class="teachers__list">
+				<li class="teachers__item">
+					<div class="teachers__img-wrap spots spots-pink">
+						<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/teacher-02.png" width="307" height="380" loading="lazy" alt="Елизавета Карбалевич">
+					</div>
+					<div class="teachers__content">
+						<h3 class="teachers__name">Елизавета Карбалевич</h3>
+						<span class="teachers__descr">Выпускница БГУ по специальности «Коммуникативный дизайн».</span>
+						<span class="teachers__descr">Преподавательский стаж более 4-х лет.</span>
+					</div>
+				</li>
+				<li class="teachers__item">
+					<div class="teachers__img-wrap spots spots-white">
+						<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/teacher-03.png" width="307" height="380" loading="lazy" alt="Анита Савчук">
+					</div>
+					<div class="teachers__content">
+						<h3 class="teachers__name">Анита Савчук</h3>
+						<span class="teachers__descr">Имеет образование в сфере дизайна и преподавания.</span>
+						<span class="teachers__descr">Преподавательский стаж более 3-х лет.</span>
+					</div>
+				</li>
+				<li class="teachers__item">
+					<div class="teachers__img-wrap spots spots-blue">
+						<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/teacher-01.png" width="307" height="380" loading="lazy" alt="Евгения Кахно">
+					</div>
+					<div class="teachers__content">
+						<h3 class="teachers__name">Евгения Кахно</h3>
+						<span class="teachers__descr">Художник, реставратор, педагог, дизайнер.</span>
+						<span class="teachers__descr">Педагогический стаж более 6-и лет.</span>
+					</div>
+				</li>
+				<li class="teachers__item">
+					<div class="teachers__img-wrap spots spots-white-02">
+						<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/teacher-04.png" width="307" height="380" loading="lazy" alt="Анастасия Етка">
+					</div>
+					<div class="teachers__content">
+						<h3 class="teachers__name">Анастасия Етка</h3>
+						<span class="teachers__descr">Художник, педагог.</span>
+					</div>
+				</li>
+				<li class="teachers__item">
+					<div class="teachers__img-wrap spots spots-pink">
+						<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/teacher-05.png" width="307" height="380" loading="lazy" alt="Дана Маршак">
+					</div>
+					<div class="teachers__content">
+						<h3 class="teachers__name">Дана Маршак</h3>
+						<span class="teachers__descr">Преподаватель, дизайнер.</span>
+						<span class="teachers__descr"> Имеет опыт работы с детьми 2-15 лет.</span>
+					</div>
+				</li>
+				<li class="teachers__item">
+					<div class="teachers__img-wrap spots spots-yellow">
+						<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/teacher-06.png" width="307" height="380" loading="lazy" alt="Анна Еременко">
+					</div>
+					<div class="teachers__content">
+						<h3 class="teachers__name">Анна Еременко</h3>
+						<span class="teachers__descr">Художник, педагог, дизайнер, ремесленник, кондитер.</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

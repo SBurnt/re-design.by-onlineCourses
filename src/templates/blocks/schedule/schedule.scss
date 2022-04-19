@@ -1,0 +1,161 @@
+.schedule {
+  .section__title,
+  .section__subtitle {
+    z-index: 1;
+  }
+  &__wrapper {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    padding: 50px 15px;
+
+    background: url(../images/other/bg-lattice.png) center/cover no-repeat, $bg-blue-liner;
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 343px;
+    height: 343px;
+
+    @include media("max", "lg") {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  &__list {
+    z-index: 2;
+
+    display: flex;
+    margin-bottom: -200px;
+
+    @include media("max", "md") {
+      flex-direction: column;
+
+      column-gap: 80px;
+
+      gap: 80px;
+    }
+
+    gap: 30px;
+    row-gap: 30px;
+  }
+
+  &__item {
+    position: relative;
+
+    width: 50%;
+    max-width: 657px;
+    padding: 40px 65px 70px;
+
+    background-color: #ffffff;
+
+    @include media("max", "xl") {
+      padding: 30px 35px 50px;
+    }
+    @include media("max", "md") {
+      width: 100%;
+      padding: 30px 15px 50px;
+    }
+  }
+
+  &__title {
+    display: block;
+    margin-bottom: 25px;
+
+    font-size: var(--fs-40-28);
+    line-height: 120%;
+    text-align: center;
+  }
+
+  &__time {
+    display: block;
+    margin-bottom: 8px;
+
+    font-weight: 500;
+    font-size: var(--fs-20-16);
+    line-height: 150%;
+    font-family: $raleway;
+    color: $color-gray;
+  }
+
+  &__descr {
+    display: block;
+    margin-bottom: 25px;
+
+    font-size: var(--fs-24-18);
+    line-height: 142%;
+  }
+
+  &__price {
+    position: absolute;
+  }
+
+  .price {
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 195px;
+
+    text-align: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    @include media("max", "lg") {
+      height: 180px;
+    }
+    @include media("max", "md") {
+      right: 10px !important;
+      bottom: -60px !important;
+      left: auto !important;
+
+      height: 130px;
+    }
+
+    &.full {
+      bottom: -110px;
+      left: 0;
+
+      background-image: url(../images/ico/figures/ico-sun-blue.svg);
+    }
+
+    &.notfull {
+      right: 40px;
+      bottom: 35px;
+
+      background-image: url(../images/ico/figures/ico-sun-yellow.svg);
+    }
+
+    &_old {
+      display: block;
+      margin-bottom: 5px;
+
+      font-size: var(--fs-24-20);
+      text-decoration: line-through;
+    }
+
+    &_current {
+      font-size: var(--fs-24-20);
+      color: $color-red;
+
+      span {
+        display: block;
+
+        font-size: var(--fs-16-12);
+        white-space: nowrap;
+      }
+    }
+  }
+}

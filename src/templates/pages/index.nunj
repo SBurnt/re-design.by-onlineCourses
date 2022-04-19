@@ -1,0 +1,20 @@
+{% extends "../ext/base.nunj" %}
+
+{% block content %}
+
+	<main class="main">
+		{% include "../blocks/full-img/full-img.nunj" %}
+		{% include "../blocks/info/info.nunj" %}
+		{% include "../blocks/format/format.nunj" %}
+		{% include "../blocks/activity/activity.nunj" %}
+		{% include "../blocks/form/form.nunj" %}
+		{% include "../blocks/programs/programs.nunj" %}
+		{% include "../blocks/summer/summer.nunj" %}
+		{% include "../blocks/schedule/schedule.nunj" %}
+		{% include "../blocks/timetable/timetable.nunj" %}
+		{% include "../blocks/teachers/teachers.nunj" %}
+		{% include "../blocks/gallery/gallery.nunj" %}
+		{% include "../blocks/summer2/summer2.nunj" %}
+	</main>
+
+{% endblock content %}

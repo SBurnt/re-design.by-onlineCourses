@@ -1,0 +1,47 @@
+<section class="timetable">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title">Расписание смен</h2>
+			<div class="timetable__grass"></div>
+			<div class="swiper-container js-slider-timetable-init">
+				<ul class="swiper-wrapper timetable__list">
+					<li class="swiper-slide timetable__item">
+						<span class="timetable__date">06 июня - 17 июня</span>
+						<span class="timetable__part">Первая смена</span>
+						{# <div class=""> #}
+							<span class="timetable__descr">Неполный день:</span>
+							<span class="timetable__time">10:00 - 13:00 </span>
+							<span class="timetable__descr">Полный день:</span>
+							<span class="timetable__time">10:00 - 17:00 </span>
+						{# </div> #}
+					</li>
+					<li class="swiper-slide timetable__item">
+						<span class="timetable__date">20 июня - 01 июля</span>
+						<span class="timetable__part">Вторая смена</span>
+						<span class="timetable__descr">Неполный день:</span>
+						<span class="timetable__time">10:00 - 13:00 </span>
+						<span class="timetable__descr">Полный день:</span>
+						<span class="timetable__time">10:00 - 17:00 </span>
+					</li>
+					<li class="swiper-slide timetable__item">
+						<span class="timetable__date">04 июля - 15 июля</span>
+						<span class="timetable__part">Третья смена</span>
+						<span class="timetable__descr">Неполный день:</span>
+						<span class="timetable__time">10:00 - 13:00 </span>
+						<span class="timetable__descr">Полный день:</span>
+						<span class="timetable__time">10:00 - 17:00 </span>
+					</li>
+					<li class="swiper-slide timetable__item">
+						<span class="timetable__date">18 июля - 29 июля</span>
+						<span class="timetable__part">Четвертая смена</span>
+						<span class="timetable__descr">Неполный день:</span>
+						<span class="timetable__time">10:00 - 13:00 </span>
+						<span class="timetable__descr">Полный день:</span>
+						<span class="timetable__time">10:00 - 17:00 </span>
+					</li>
+				</ul>
+			</div>
+			<button class="btn blue js-btn-scroll-to-form" data-scroll-block="form-scroll">оставить заявку</button>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,37 @@
+// ======= GLOBAL =======
+@import "normalize";
+@import "reset";
+@import "lib/swiper-bundle.min";
+// @import "lib/simplebar.min";
+// @import "lib/nouislider.min";
+@import "lib/choices.min";
+@import "constants";
+@import "lib/base";
+@import "global";
+@import "layout";
+// @import 'controls';
+
+// ======= PAGES =======
+@import "pages/index-page";
+
+// ======= BLOCKS =======
+// @import "blocks/modals";
+@import "../../templates/blocks/header/header";
+@import "../../templates/blocks/footer/footer";
+@import "../../templates/blocks/full-img/full-img";
+@import "../../templates/blocks/info/info";
+@import "../../templates/blocks/format/format";
+@import "../../templates/blocks/activity/activity";
+@import "../../templates/blocks/form/form";
+@import "../../templates/blocks/programs/programs";
+@import "../../templates/blocks/summer/summer";
+@import "../../templates/blocks/schedule/schedule";
+@import "../../templates/blocks/timetable/timetable";
+@import "../../templates/blocks/teachers/teachers";
+@import "../../templates/blocks/gallery/gallery";
+@import "../../templates/blocks/summer2/summer2";
+
+// ======= COMPONENTS =======
+@import "../../components/logo/logo";
+@import "../../components/social/social";
+@import "../../components/phones/phones";

@@ -1,0 +1,16 @@
+<section class="summer2">
+	<div class="container">
+		<div class="summer2__wrap">
+			<img class="summer2__img lazyload" src="#" data-src="assets/images/ico/figures/ico-sun-2.svg" width="160" height="160" loading="lazy" alt="иконка">
+			<h2 class="section__title">Проведи
+				<span class='color'>
+					<span class="pink">л</span>
+					<span class="yellow">е</span>
+					<span class="blue_light">т</span>
+					<span class="yellow">о</span>
+				</span>
+				 с нами</h2>
+			<button class="btn blue js-btn-scroll-to-form" data-scroll-block="form-scroll">оставить заявку</button>
+		</div>
+	</div>
+</section>

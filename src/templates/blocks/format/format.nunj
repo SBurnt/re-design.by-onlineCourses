@@ -1,0 +1,20 @@
+<section class="format">
+	<div class="container">
+		<div class="section__inner">
+			<div class="format__img-wrap">
+				<img class="format__ico sun lazyload" src="#" data-src="assets/images/ico/figures/ico-sun.svg" width="180" height="180" loading="lazy" alt="иконка">
+				<div class="format__img-bg br-60-30">
+					<img class="format__img lazyload" src="#" data-src="assets/images/other/format.jpg" width="520" height="720" loading="lazy" alt="буквы ART">
+				</div>
+			</div>
+			<div class="format__content">
+				<span class="format__title">Формат</span>
+				<h2 class="format__subtitle">Городской лагерь с образовательной программой и отдыхом</h2>
+				<ul class="format__list">
+					<li class="format__item">Неполный день с 10:00-13:00 лагерь с образовательной программой</li>
+					<li class="format__item">Полный день с 10:00-17:00 лагерь с образовательной программой и отдыхом</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

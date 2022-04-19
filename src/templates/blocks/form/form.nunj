@@ -1,0 +1,55 @@
+<section class="form">
+	<div class="container">
+		<div class="section__inner">
+			<div class="form__wrapper br-60-30">
+				<div class="form__img-wrap">
+					<img class="form__img lazyload" src="#" data-src="assets/images/other/form-girl.png" loading="lazy" alt="">
+				</div>
+				<div class="form__content" id="form-scroll">
+					<span class="section__subtitle">Получить бесплатную консультацию или</span>
+					<h2 class="section__title">Записаться в лагерь</h2>
+					<form class="form__feedback" method="POST" data-netlify="true">
+						<label class="form__label">
+							<input class="form__input input-child" type="text" name="child" onkeyup="this.setAttribute('value', this.value);" value>
+							<span class="form__input-placeholder">ФИО ребенка</span>
+						</label>
+						<label class="form__label">
+							<input class="form__input input-age" type="number" name="age" onkeyup="this.setAttribute('value', this.value);" value>
+							<span class="form__input-placeholder">Возраст ребенка</span>
+						</label>
+						<label class="form__label">
+							<input class="form__input input-parent" type="text" name="parent" onkeyup="this.setAttribute('value', this.value);" value>
+							<span class="form__input-placeholder">ФИО родителя</span>
+						</label>
+						<label class="form__label">
+							<input class="form__input input-tel" type="tel" inputmode="tel" name="tel" onkeyup="this.setAttribute('value', this.value);" value>
+							<span class="form__input-placeholder">Телефон</span>
+						</label>
+						<div class="form__select-wrap">
+							<select class="form__select form__input js-form-select input-change" name="change">
+								<option value="">Смена</option>
+								<option value="Смена 1">Смена 1</option>
+								<option value="Смена 2">Смена 2</option>
+								<option value="Смена 3">Смена 3</option>
+								<option value="Смена 4">Смена 4</option>
+								<option value="Нужна консультация">Нужна консультация</option>
+							</select>
+							<select class="form__select form__input js-form-select input-format" name="format">
+								<option value="">Формат</option>
+								<option value="Полный день">Полный день</option>
+								<option value="Неполный день">Неполный день</option>
+								<option value="Нужна консультация">Нужна консультация</option>
+							</select>
+						</div>
+						{# <input class="input-type" type="hidden" name="type" value="Консультация"> #}
+						<button class="btn blue form__btn-send">ОСТАВИТЬ ЗАЯВКУ</button>
+						<p class="form__thanks">Заявка успешно отправлена!</p>
+					</form>
+				</div>
+				<div class="form__img-wrap img-right">
+					<img class="form__img lazyload" src="#" data-src="assets/images/other/form-boy.png" loading="lazy" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
