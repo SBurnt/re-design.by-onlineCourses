@@ -7,6 +7,7 @@
 		<title>
 			{% block title %}RE:DESIGN{% endblock %}
 		</title>
+		<meta name="description" content="Онлайн курс Design START">
 
 		{# favicon-generator.org #}
 		<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">

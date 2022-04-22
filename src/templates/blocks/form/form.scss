@@ -58,10 +58,10 @@
   }
 
   .btn {
-    margin-top: 60px;
+    margin-top: 40px;
 
     @include media("max", "lg") {
-      margin-top: 40px;
+      margin-top: 25px;
     }
   }
 
@@ -113,9 +113,9 @@
       padding: 21px 40px 9px 25px;
     }
 
-    &.has__error {
-      // border-color: $color-red;
-    }
+    // &.has__error {
+    //   border-color: $color-red;
+    // }
 
     &:focus,
     &:not([value=""]) {
@@ -162,7 +162,7 @@
   &__input-error {
     position: absolute;
     bottom: 2px;
-    left: 20px;
+    left: 25px;
 
     font-weight: 500;
     font-size: 12px;
@@ -206,20 +206,19 @@
   }
 
   &__select {
+    padding: 16px 40px 20px 20px;
+
     font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
     font-family: $raleway;
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
+    color: #666666;
 
-    &-wrap {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
+    @include media("max", "md") {
+      padding: 17px 40px 17px 18px;
 
-      @include media("max", "lg") {
-        flex-direction: column;
-      }
+      font-size: 12px;
+      line-height: 16px;
     }
   }
 

@@ -1,8 +1,7 @@
 <section class="teachers" id="teachers-scroll">
 	<div class="container">
 		<div class="section__inner">
-			<h3 class="section__subtitle">Команда лагеря</h3>
-			<h2 class="section__title">Преподаватели, вожатые</h2>
+			<h2 class="section__title">Преподаватели и кураторы</h2>
 			<ul class="teachers__list">
 				<li class="teachers__item">
 					<div class="teachers__img-wrap spots spots-pink">
@@ -15,7 +14,7 @@
 					</div>
 				</li>
 				<li class="teachers__item">
-					<div class="teachers__img-wrap spots spots-white">
+					<div class="teachers__img-wrap spots spots-yellow">
 						<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/teacher-03.png" width="307" height="380" loading="lazy" alt="Анита Савчук">
 					</div>
 					<div class="teachers__content">
@@ -41,25 +40,6 @@
 					<div class="teachers__content">
 						<h3 class="teachers__name">Анастасия Етка</h3>
 						<span class="teachers__descr">Художник, педагог.</span>
-					</div>
-				</li>
-				<li class="teachers__item">
-					<div class="teachers__img-wrap spots spots-pink">
-						<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/teacher-05.png" width="307" height="380" loading="lazy" alt="Дана Маршак">
-					</div>
-					<div class="teachers__content">
-						<h3 class="teachers__name">Дана Маршак</h3>
-						<span class="teachers__descr">Преподаватель, дизайнер.</span>
-						<span class="teachers__descr"> Имеет опыт работы с детьми 2-15 лет.</span>
-					</div>
-				</li>
-				<li class="teachers__item">
-					<div class="teachers__img-wrap spots spots-yellow">
-						<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/teacher-06.png" width="307" height="380" loading="lazy" alt="Анна Еременко">
-					</div>
-					<div class="teachers__content">
-						<h3 class="teachers__name">Анна Еременко</h3>
-						<span class="teachers__descr">Художник, педагог, дизайнер, ремесленник, кондитер.</span>
 					</div>
 				</li>
 			</ul>

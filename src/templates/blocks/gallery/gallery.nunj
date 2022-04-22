@@ -1,7 +1,7 @@
 <section class="gallery">
 	<div class="container">
 		<div class="section__inner">
-			<h2 class="section__title">Как проходит лагерь</h2>
+			<h2 class="section__title">Как проходит обучение</h2>
 			<div class="gallery__slider">
 				<div class="swiper-container gallery__slider-thumbs js-slider-gallery-thumbs-init">
 					<ul class="swiper-wrapper gallery__list-thumbs">
@@ -9,82 +9,82 @@
 							<div class="gallery__img-wrap-thumbs">
 								<img class="gallery__img-thumbs lazyload" src="#" data-src="assets/images/ico/figures/ico-sun.svg" width="60" height="60" loading="lazy" alt="иконка">
 							</div>
-							<span class="gallery__text">Экскурсии<br> в дизайн-компании</span>
+							<span class="gallery__text">Живое онлайн занятие с преподавателем</span>
 						</li>
 						<li class="swiper-slide gallery__item-thumbs">
 							<div class="gallery__img-wrap-thumbs">
 								<img class="gallery__img-thumbs lazyload" src="#" data-src="assets/images/ico/figures/ico-flower-2.svg" width="60" height="60" loading="lazy" alt="иконка">
 							</div>
-							<span class="gallery__text">Занятия</span>
+							<span class="gallery__text">Домашнее<br> задание</span>
 						</li>
 						<li class="swiper-slide gallery__item-thumbs">
 							<div class="gallery__img-wrap-thumbs">
 								<img class="gallery__img-thumbs lazyload" src="#" data-src="assets/images/ico/figures/ico-pencil.svg" width="60" height="60" loading="lazy" alt="иконка">
 							</div>
-							<span class="gallery__text">Творчество<br> на свежем воздухе</span>
+							<span class="gallery__text">Видео-записи урока, тем кто пропустил</span>
 						</li>
 						<li class="swiper-slide gallery__item-thumbs">
 							<div class="gallery__img-wrap-thumbs">
 								<img class="gallery__img-thumbs lazyload" src="#" data-src="assets/images/ico/figures/ico-rainbow.svg" width="60" height="60" loading="lazy" alt="иконка">
 							</div>
-							<span class="gallery__text">Яркие впечатления</span>
+							<span class="gallery__text">Групповой чат<br> в Телеграм</span>
 						</li>
 					</ul>
 				</div>
 				<div class="swiper-container gallery__slider-photo js-slider-gallery-init">
 					<div class="swiper-wrapper gallery__wrap">
 						<ul class="swiper-slide gallery__list">
-							<!-- excursions -->
+							<!-- live -->
 							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/excursions/1.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/live/1.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
 							</li>
 							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/excursions/2.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/live/2.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
 							</li>
 							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/excursions/3.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/live/3.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
 							</li>
 							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/excursions/4.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
-							</li>
-						</ul>
-						<ul class="swiper-slide gallery__list">
-							<!-- lessons -->
-							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/lessons/1.jpg" width="700" height="510" loading="lazy" alt="фото занятия">
-							</li>
-							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/lessons/2.jpg" width="700" height="510" loading="lazy" alt="фото занятия">
-							</li>
-							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/lessons/3.jpg" width="700" height="510" loading="lazy" alt="фото занятия">
-							</li>
-							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/lessons/4.jpg" width="700" height="510" loading="lazy" alt="фото занятия">
-							</li>
-							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/lessons/5.jpg" width="700" height="510" loading="lazy" alt="фото занятия">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/live/4.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
 							</li>
 						</ul>
 						<ul class="swiper-slide gallery__list">
-							<!-- outdoors -->
+							<!-- hw -->
 							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/outdoors/1.jpg" width="700" height="510" loading="lazy" alt="фото Творчество на свежем воздухе">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/hw/1.jpg" width="700" height="510" loading="lazy" alt="фото занятия">
 							</li>
 							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/outdoors/2.jpg" width="700" height="510" loading="lazy" alt="фото Творчество на свежем воздухе">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/hw/2.jpg" width="700" height="510" loading="lazy" alt="фото занятия">
 							</li>
 							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/outdoors/3.jpg" width="700" height="510" loading="lazy" alt="фото Творчество на свежем воздухе">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/hw/3.jpg" width="700" height="510" loading="lazy" alt="фото занятия">
+							</li>
+							<li class="gallery__item br-60-30">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/hw/4.jpg" width="700" height="510" loading="lazy" alt="фото занятия">
+							</li>
+							<li class="gallery__item br-60-30">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/hw/5.jpg" width="700" height="510" loading="lazy" alt="фото занятия">
 							</li>
 						</ul>
 						<ul class="swiper-slide gallery__list">
-							<!-- impression -->
+							<!-- video -->
 							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/impression/1.jpg" width="700" height="510" loading="lazy" alt="фото Яркие впечатления">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/video/1.jpg" width="700" height="510" loading="lazy" alt="фото Творчество на свежем воздухе">
 							</li>
 							<li class="gallery__item br-60-30">
-								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/impression/2.jpg" width="700" height="510" loading="lazy" alt="фото Яркие впечатления">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/video/2.jpg" width="700" height="510" loading="lazy" alt="фото Творчество на свежем воздухе">
+							</li>
+							<li class="gallery__item br-60-30">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/video/3.jpg" width="700" height="510" loading="lazy" alt="фото Творчество на свежем воздухе">
+							</li>
+						</ul>
+						<ul class="swiper-slide gallery__list">
+							<!-- group -->
+							<li class="gallery__item br-60-30">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/group/1.jpg" width="700" height="510" loading="lazy" alt="фото Яркие впечатления">
+							</li>
+							<li class="gallery__item br-60-30">
+								<img class="gallery__img swiper-lazy" src="#" data-src="assets/images/main/gallery/group/2.jpg" width="700" height="510" loading="lazy" alt="фото Яркие впечатления">
 							</li>
 						</ul>
 					</div>

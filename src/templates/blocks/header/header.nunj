@@ -1,7 +1,7 @@
 <header class="header">
 	<div class="container">
 		<div class="header__wrap">
-			<h1 class="invisible-container">Летний лагерь Design Re-design</h1>
+			<h1 class="invisible-container">Онлайн курс Design START Re-design</h1>
 			{% include "../../../components/logo/logo.nunj" %}
 			<nav class="header__nav nav">
 				<ul class="nav__list">
@@ -13,6 +13,9 @@
 					</li>
 					<li class="nav__item">
 						<a class="nav__link js-btn-scroll-to-form" href="#" title="Преподаватели" data-scroll-block="teachers-scroll">Преподаватели</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="https://re-design.by/#features" target="_blank" title="Офлайн курсы">Офлайн курсы</a>
 					</li>
 				</ul>
 			</nav>

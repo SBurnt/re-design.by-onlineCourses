@@ -1,19 +1,17 @@
 <?php
 
-$childname = $_POST['child'];
-$parentname = $_POST['parent'];
-$usertel = $_POST['tel'];
-$childage = $_POST['age'];
-$change = $_POST['change'];
+$childName = $_POST['child'];
+$childAge = $_POST['age'];
+$cityName = $_POST['city'];
+$userTel = $_POST['tel'];
 $format = $_POST['format'];
 $typeCourse = $_POST['type'];
 
-echo ' childname ' . $childname;
-echo ' childage ' .  $childage;
-echo ' parentname ' .  $parentname;
-echo ' usertel ' .  $usertel;
-echo ' typeCourse ' .  $typeCourse;
-echo ' change ' .  $change;
+echo ' childName ' . $childName;
+echo ' childAge ' .  $childAge;
+echo ' cityName ' .  $cityName;
+echo ' userTel ' .  $userTel;
 echo ' format ' .  $format;
+echo ' typeCourse ' .  $typeCourse;
 
 // require_once __DIR__ . "/telegram.php"; // Send to Telegram

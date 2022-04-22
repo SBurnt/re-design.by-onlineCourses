@@ -2,14 +2,14 @@
 	<div class="container">
 		<div class="section__inner">
 			<div class="summer__wrap br-60-30">
-				<h2 class="section__title">Проведи
+				<h2 class="section__title">Старт занятий
 					<span class='color'>
-						<span class="pink">л</span>
-						<span class="yellow">е</span>
-						<span class="blue_light">т</span>
-						<span class="yellow">о</span>
+						<span class="pink">5&nbsp;</span>
+						<span class="yellow">М</span>
+						<span class="blue_light">а</span>
+						<span class="yellow">я</span>
 					</span>
-				 с нами</h2>
+				</h2>
 				<button class="btn blue js-btn-scroll-to-form" data-scroll-block="form-scroll">оставить заявку</button>
 			</div>
 		</div>

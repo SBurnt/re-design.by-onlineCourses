@@ -11,7 +11,6 @@
 		{% include "../blocks/programs/programs.nunj" %}
 		{% include "../blocks/summer/summer.nunj" %}
 		{% include "../blocks/schedule/schedule.nunj" %}
-		{% include "../blocks/timetable/timetable.nunj" %}
 		{% include "../blocks/teachers/teachers.nunj" %}
 		{% include "../blocks/gallery/gallery.nunj" %}
 		{% include "../blocks/summer2/summer2.nunj" %}

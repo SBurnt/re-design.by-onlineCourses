@@ -1,15 +1,13 @@
-import Inputmask from 'inputmask';
+// import Inputmask from 'inputmask';
 import JustValidate from 'just-validate';
 
 const form = document.querySelector('.form__feedback');
 const telSelector = form.querySelector('.input-tel');
 const childSelector = form.querySelector('.input-child');
-const parentSelector = form.querySelector('.input-parent');
+const citySelector = form.querySelector('.input-city');
 const ageSelector = form.querySelector('.input-age');
-const changeSelector = form.querySelector('.input-change');
-const formatSelector = form.querySelector('.input-format');
-const inputMask = new Inputmask('+375 (99) 999-99-99');
-inputMask.mask(telSelector);
+// const inputMask = new Inputmask('+375 (99) 999-99-99');
+// inputMask.mask(telSelector);
 
 const validation = new JustValidate('.form__feedback', {
 	errorFieldCssClass: 'has__error',
@@ -41,21 +39,21 @@ validation
 			errorMessage: 'Введите возраст!',
 		},
 	])
-	.addField('.input-parent', [
+	.addField('.input-city', [
 		{
 			rule: 'minLength',
 			value: 2,
-			errorMessage: 'Введите корректное имя!',
+			errorMessage: 'Введите корректный город!',
 		},
 		{
 			rule: 'maxLength',
 			value: 40,
-			errorMessage: 'Введите корректное имя!',
+			errorMessage: 'Введите корректный город!',
 		},
 		{
 			rule: 'required',
 			value: true,
-			errorMessage: 'Введите имя!',
+			errorMessage: 'Введите Ваш город!',
 		},
 	])
 	.addField('.input-tel', [
@@ -64,27 +62,20 @@ validation
 			value: true,
 			errorMessage: 'Телефон обязателен!',
 		},
-		{
-			rule: 'function',
-			validator: function() {
-				const phone = telSelector.inputmask.unmaskedvalue();
-				return phone.length === 9;
-			},
-			errorMessage: 'Введите корректный телефон!',
-		},
-	])
-	.addField('.input-change', [
-		{
-			rule: 'required',
-			value: true,
-			errorMessage: 'Выберите смену!',
-		},
+		// {
+		// 	rule: 'function',
+		// 	validator: function() {
+		// 		const phone = telSelector.inputmask.unmaskedvalue();
+		// 		return phone.length === 9;
+		// 	},
+		// 	errorMessage: 'Введите корректный телефон!',
+		// },
 	])
 	.addField('.input-format', [
 		{
 			rule: 'required',
 			value: true,
-			errorMessage: 'Выберите формат!',
+			errorMessage: 'Выберите значение!',
 		},
 	])
 	.onSuccess(event => {
@@ -104,11 +95,9 @@ validation
 		xhr.send(formData);
 
 		childSelector.setAttribute('value', '');
-		parentSelector.setAttribute('value', '');
+		citySelector.setAttribute('value', '');
 		telSelector.setAttribute('value', '');
 		ageSelector.setAttribute('value', '');
-		// changeSelector.setAttribute('value', '');
-		// formatSelector.setAttribute('value', '');
 
 		event.target.reset();
 	});
