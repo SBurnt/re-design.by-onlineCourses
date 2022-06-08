@@ -31,8 +31,11 @@
 						<span class="schedule__time">Каждому ученику предоставляется доступ к личному кабинету, где размещаются домашние задания и записи вебинаров</span>
 						<span class="schedule__time">Чат с Академией и преподавателем</span>
 						<div class="schedule__price price notfull">
-							<span class="price_old">65 &euro;</span>
-							<span class="price_current">55 &euro;<span>при оплате до 15 мая</span></span>
+							<span class="price_old">205 BYN</span>
+							<span class="price_current">185 BYN <span>при оплате первого взноса до 15 июня</span></span>
+						</div>
+						<div class="schedule__price price full">
+							<span class="price_current">495 BYN <span>при оплате за весь курс одним платежом</span></span>
 						</div>
 					</li>
 				</ul>

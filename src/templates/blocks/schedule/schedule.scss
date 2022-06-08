@@ -3,6 +3,13 @@
   .section__subtitle {
     z-index: 1;
   }
+
+  .section__title {
+    @include media("max", "md") {
+      margin-bottom: 70px;
+    }
+  }
+
   &__wrapper {
     position: relative;
 
@@ -137,11 +144,12 @@
       left: auto !important;
 
       height: 130px;
+			width: 155px;
     }
 
     &.full {
-      bottom: -110px;
-      left: 0;
+      right: 15%;
+      bottom: -90px;
 
       background-image: url(../images/ico/figures/ico-sun-blue.svg);
     }
@@ -151,6 +159,12 @@
       right: -120px;
 
       background-image: url(../images/ico/figures/ico-sun-yellow.svg);
+
+      @include media("max", "md") {
+        top: -85px !important;
+        right: auto !important;
+        left: 0 !important;
+      }
     }
 
     &_old {
@@ -169,7 +183,7 @@
         display: block;
 
         font-size: var(--fs-16-12);
-        white-space: nowrap;
+        // white-space: nowrap;
       }
     }
   }
